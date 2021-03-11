@@ -1,12 +1,21 @@
 //import liraries
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, TextInput, Button } from 'react-native';
 
 // create a component
 const Register = () => {
     return (
         <View style={styles.container}>
-            <Text>Register</Text>
+            <TextInput
+                placeholder='email'
+            />
+            <TextInput
+                placeholder='password'
+                secureTextEntry={true}
+            />
+            <Button
+                title='CREATE ACCOUNT'
+            />
         </View>
     );
 };

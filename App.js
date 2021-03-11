@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import {TabNavigate, DrawerNavigate} from './src/routes/navigation'
+import SplashScreen from './src/components/SplashScreen'
 
 function switchNavigate(screen) {
   switch (screen) {
@@ -10,11 +11,25 @@ function switchNavigate(screen) {
   
     case false:
       return <TabNavigate/>
+
+    default:
+      return <SplashScreen/>
   }
 }
 
 // create a component
 class App extends Component {
+
+  state = {
+    screen: null
+  }
+
+  componentDidUpdate(){
+    this.setState({
+      state: false
+    })
+  }
+
   render() {
     return (
       switchNavigate(true)
