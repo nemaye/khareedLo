@@ -12,10 +12,33 @@
           "package_name": "com.ecom"
         }
       },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVMgeSvLO0UGM2O0yv32h54m5Wl8jWIb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025516812419:android:a2b262dad5a76b06d843b6",
+        "android_client_info": {
+          "package_name": "com.nemaye.ecomapp.khareedlo"
+        }
+      },
       "oauth_client": [
         {
-          "client_id": "1025516812419-catoj45oujm37ka6ec4mtcvf5rcvqtgp.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "1025516812419-bujfhv3fjpqu2jlbv7kh4dg71o6p11tk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nemaye.ecomapp.khareedlo",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
         }
       ],
       "api_key": [
@@ -25,12 +48,7 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1025516812419-catoj45oujm37ka6ec4mtcvf5rcvqtgp.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
